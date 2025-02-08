@@ -1,3 +1,12 @@
+.. Heading guidelines
+..     # with overline, for parts
+..     * with overline, for chapters
+..     =, for sections
+..     -, for subsections
+..     ^, for subsubsections
+..     “, for paragraphs
+
+
 ##########################
 Ryzen AI Software   
 ##########################
@@ -68,6 +77,17 @@ For more details, refer to the :doc:`modelrun` page.
    modelrun.rst
    app_development.rst
 
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Running LLMs on the NPU
+
+   llm/overview.rst
+   llm/simple_python.rst
+   llm/server_interface.rst
+   llm/native_oga.rst
+   llm/oga_model_preparation.rst
 
 .. toctree::
    :maxdepth: 1
